@@ -1,0 +1,51 @@
+@import "@/assets/CSS/variables.css";
+@import "@/assets/CSS/font.css";
+
+// commun style
+body {
+    font-family: 'Times New Roman', sans-serif;
+    background-color: $main-bg-color;
+}
+
+.row-limit-size {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    color: $main-text-color;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 50px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+
+h3 {
+    color: $main-text-color;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 1px;
+}
+
+// center element
+.center-element {
+    width: 90%;
+    margin: 0 auto;
+}
+
+// slider
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 20px;
+    z-index: 10;
+}
