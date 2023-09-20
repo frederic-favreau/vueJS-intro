@@ -10,6 +10,7 @@
           :title="movie.title"
           :release_date="movie.release_date"
           :img="movie.poster_path"
+          :id="movie.id"
         />
       </div>
     </section>

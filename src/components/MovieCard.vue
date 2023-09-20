@@ -5,6 +5,9 @@
       <h3 id="title-card-popular">{{ title }}</h3>
       <div id="date-card-popular">
         <p id="date-card-popular">{{ release_date }}</p>
+        <router-link :to="{ name: 'movieDetails', params: { id: id } }">
+          <p>En savoir plus</p>
+        </router-link>
       </div>
     </div>
   </div>
